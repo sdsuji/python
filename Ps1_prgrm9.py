@@ -1,0 +1,13 @@
+minutes_passed = int(input("Enter the number of minutes passed since midnight:")) #input
+#converting minutes to hours
+hours = int(minutes_passed / 60)
+#calculating min left after hour conversion
+minutes = int(minutes_passed%60)
+print(minutes_passed,"minutes have passed since midnight") 
+if(hours == 0):
+    print("Time is 12 : ",minutes_passed,"am")
+elif(hours >0 and hours < 12 or hours==24):
+    print("Time is",hours,":", minutes,"am")
+    
+else:
+   print("Time is",hours,":", minutes,"pm")
