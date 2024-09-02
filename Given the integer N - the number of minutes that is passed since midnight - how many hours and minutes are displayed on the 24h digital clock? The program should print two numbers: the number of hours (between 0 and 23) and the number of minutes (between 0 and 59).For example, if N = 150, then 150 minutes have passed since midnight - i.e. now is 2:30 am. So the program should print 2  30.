@@ -1,3 +1,4 @@
+
 minutes_passed = int(input("Enter the number of minutes passed since midnight:")) #input
 #converting minutes to hours
 hours = int(minutes_passed / 60)
